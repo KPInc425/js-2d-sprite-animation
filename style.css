@@ -19,3 +19,7 @@
 .controls, select, option {
     font-size: 25px;
 }
+
+input {
+    font-size: 24.5px;
+}
