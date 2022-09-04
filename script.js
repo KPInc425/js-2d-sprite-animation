@@ -4,7 +4,7 @@ dropDown.addEventListener('change', (e) => {
     console.log(e.target.value);
     playerState = e.target.value;
     if (playerState === 'demon') {
-        staggerFrames = 70;
+        staggerFrames = 50;
     } else {
         staggerFrames = 5;
     }
