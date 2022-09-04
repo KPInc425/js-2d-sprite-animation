@@ -98,7 +98,7 @@ function animate() {
     let position = Math.floor(gameFrame/staggerFrames) % spriteAnimations[playerState].loc.length;
     let frameX = spriteWidth * position;
     let frameY = spriteAnimations[playerState].loc[position].y;
-    ctx.drawImage(playerImage, frameX, frameY, spriteWidth, spriteHeight, 0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
+    ctx.drawImage(playerImage, frameX, frameY, spriteWidth, spriteHeight, 100, 200, (CANVAS_WIDTH - 200), (CANVAS_HEIGHT - 200));
 
     gameFrame++;
     requestAnimationFrame(animate);
